@@ -4,9 +4,13 @@
 #solution = re.findall('([A-Z])',nom)
 #print ("les lettres en majuscules sont : ",solution)
 
-def majuscule(phrase):
-    maj = phrase.capitalize()
-    print (maj)
+def capital_case(v):
+    """
+    permet de passer la première lettre en majuscule
+    """
+    return v.capitalize()
 
-phrase = input("Indiquez une phrase : ")
-rep= majuscule(phrase)
+
+def test_capital_case():
+    resultat = capital_case("adrien")
+    assert resultat == "Adrien"

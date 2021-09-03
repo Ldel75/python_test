@@ -12,7 +12,7 @@ C'est un simple projet pour apprendre jenkins et découvrir les tests unitaires
 
 ## Démarrage du projet
 
-... shell
+``` shell
     # .venv : répertoire de destination
     # les dépendance installées avec "pip install"
     python -m venv .venv
@@ -26,6 +26,7 @@ C'est un simple projet pour apprendre jenkins et découvrir les tests unitaires
 
     # installation des dépendances du projet depuis le fichier requirements.txt
     pip intall -r .\requirements.txt
+```
 
 ## Notes
 
